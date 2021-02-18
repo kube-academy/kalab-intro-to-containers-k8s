@@ -1,24 +1,24 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: kalab-intro-to-containers-k8s
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
-  vendor: eduk8s.io
+  title: "Cloud Native Basics: Containers and Kubernetes"
+  description: Learn how to build, run, and deploy a container to Kubernetes.
+  vendor: Kube Academy
   difficulty: beginner
-  duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  duration: 30m
+  url: https://github.com/eitansuez/kalab-intro-to-containers-k8s
   content:
-    #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    image: localhost:5000/intro-to-containers:latest
+    #files: github.com/eitansuez/kalab-intro-to-containers-k8s
   session:
     namespaces:
       budget: small
     applications:
       terminal:
         enabled: true
-        layout: split
+        layout: default
       console:
         enabled: true
       editor:

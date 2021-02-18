@@ -1,13 +1,13 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: kalab-intro-to-containers-k8s
 spec:
   portal:
     registration:
       type: anonymous
   workshops:
-  - name: lab-markdown-sample
+  - name: kalab-intro-to-containers-k8s
     capacity: 1
-    expires: 60m
+    expires: 30m
     orphaned: 5m

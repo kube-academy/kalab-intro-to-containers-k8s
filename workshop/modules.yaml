@@ -1,12 +1,37 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
-    workshop-summary:
-        name: Workshop Summary
-        exit_sign: Finish Workshop
+  intro:
+    name: Workshop Overview
+    exit_sign: Begin
+  step1:
+    name: Get oriented
+  step2:
+    name: Explore the Dockerfile
+  step3:
+    name: Build a container image
+  step4:
+    name: Verify your image
+  step5:
+    name: Run a container
+  step6:
+    name: Verify the container
+  step7:
+    name: Stop the container
+  step8:
+    name: Run a registry
+  step9:
+    name: Tag your image
+  step10:
+    name: Push your image
+  step11:
+    name: View the Kubernetes Deployment
+  step12:
+    name: Deploy to Kubernetes
+  step13:
+    name: View the Kubernetes Service
+  step14:
+    name: Deploy a Kubernetes Service
+  step15:
+    name: View the web site
+  finish:
+    name: Workshop Summary
+    exit_sign: Finish Workshop
