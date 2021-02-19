@@ -17,7 +17,7 @@ modules:
   step7:
     name: Stop the container
   step8:
-    name: Run a registry
+    name: The image registry
   step9:
     name: Tag your image
   step10:
@@ -32,6 +32,8 @@ modules:
     name: Deploy a Kubernetes Service
   step15:
     name: View the web site
+  cleanup:
+    name: Delete the Deployment
   finish:
     name: Workshop Summary
     exit_sign: Finish Workshop

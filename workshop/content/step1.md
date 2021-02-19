@@ -6,6 +6,6 @@ In this directory, we have a [Hugo](https://gohugo.io/)-based website along with
 command: cd ~/intro && ls
 ```
 
-#### DockerSite & KubeSite
+#### Docker and Kubernetes App Buttons
 
-The sites tabs will display your website once it is up and running.
+The two buttons _Docker App_ and _Kubernetes App_ will display your website once it is up and running.

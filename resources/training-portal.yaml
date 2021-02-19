@@ -9,5 +9,6 @@ spec:
   workshops:
   - name: kalab-intro-to-containers-k8s
     capacity: 1
+    reserved: 0
     expires: 30m
     orphaned: 5m

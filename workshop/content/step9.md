@@ -1,6 +1,5 @@
-To prepare a docker image for a registry, we tag it and specify our newly
-created registry.
+To prepare a docker image for a registry, we tag it using the registry url.
 
 ```terminal:execute
-command: docker tag hugo-site:v1 localhost:5000/hugo-site:v1
+command: docker tag hugo-site:v1 {{ registry_host }}/hugo-site:v1
 ```
