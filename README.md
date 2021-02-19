@@ -1,26 +1,21 @@
-LAB - Markdown Sample
-=====================
+# [Educates](https://docs.eduk8s.io) workshop port of Katacoda scenario [Intro to Containers](https://github.com/kube-academy/katacoda-scenarios/tree/master/intro-to-containers-k8s)
 
-Sample workshop content using Markdown formatting for pages.
+After cloning this repo and navigating to its base directory, you can deploy the workshop with:
 
-For more detailed information on how to create and deploy workshops, consult
-the documentation for eduk8s at:
-
-* https://docs.eduk8s.io
-
-If you already have the eduk8s operator installed and configured, to deploy
-and view this sample workshop, run:
-
-```
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/workshop.yaml
-kubectl apply -f https://raw.githubusercontent.com/eduk8s/lab-markdown-sample/master/resources/training-portal.yaml
+```bash
+kubectl apply -f resources/workshop.yaml
 ```
 
-This will deploy a training portal hosting just this workshop. To get the
-URL for accessing the training portal run:
+And a sample training portal with:
 
+```bash
+kubectl apply -f resources/training-portal.yaml
 ```
-kubectl get trainingportal/lab-markdown-sample
+
+Get the URL for accessing the training portal with:
+
+```bash
+kubectl get trainingportal
 ```
 
 The training portal is configured to allow anonymous access. For your own
