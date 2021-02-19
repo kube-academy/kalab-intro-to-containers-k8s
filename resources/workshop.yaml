@@ -10,8 +10,8 @@ spec:
   duration: 30m
   url: https://github.com/eitansuez/kalab-intro-to-containers-k8s
   content:
-    image: localhost:5000/intro-to-containers:latest
-    #files: github.com/eitansuez/kalab-intro-to-containers-k8s
+    #image: localhost:5000/intro-to-containers:latest
+    files: github.com/eitansuez/kalab-intro-to-containers-k8s
   session:
     ingresses:
     - name: docker-app
