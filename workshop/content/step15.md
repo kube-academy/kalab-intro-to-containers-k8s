@@ -8,7 +8,7 @@ NodePort-type services are accessed via the IP address of any of the Kubernetes 
 
 This environment is not configured to allow ingress on custom ports, and so we are unable to access the service using NodePort.
 
-We can however demonstrate access from this terminal to a ClusterIP-type service.
+We can however demonstrate access from the terminal to a ClusterIP-type service.
 
 1. Delete the node-port service:
 

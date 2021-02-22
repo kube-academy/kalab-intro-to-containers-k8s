@@ -5,3 +5,5 @@
 ./README.md
 ./kustomization.yaml
 ./resources
+./build-local-image.sh
+
