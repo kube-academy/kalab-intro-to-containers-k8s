@@ -5,7 +5,7 @@ command: kubectl delete -f deployment.yaml
 ```
 
 ```terminal:execute
-command: kubectl delete -f service.yaml
+command: kubectl delete -f cluster-ip-service.yaml
 ```
 
 Try to confirm both were deleted using kubectl commands.
