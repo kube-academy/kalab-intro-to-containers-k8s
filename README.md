@@ -1,22 +1,30 @@
-# [Educates](https://docs.eduk8s.io) workshop port of Katacoda scenario [Intro to Containers](https://github.com/kube-academy/katacoda-scenarios/tree/master/intro-to-containers-k8s)
+This repository is an [Educates](https://docs.eduk8s.io) workshop.
 
-After cloning this repo and navigating to its base directory, you can deploy the workshop with:
+It is a port of the Katacoda scenario [Intro to Containers](https://github.com/kube-academy/katacoda-scenarios/tree/master/intro-to-containers-k8s).
 
-```bash
-kubectl apply -f resources/workshop.yaml
-```
+This scenario is published as part of the kube academy course ["Hands-On with Kubernetes and Containers"](https://kube.academy/courses/hands-on-with-kubernetes-and-containers).
 
-And a sample training portal with:
+## Deployment Instructions
 
-```bash
-kubectl apply -f resources/training-portal.yaml
-```
+1. Clone this repo
+1. Navigate to its base directory
+1. Deploy the workshop:
 
-Get the URL for accessing the training portal with:
+    ```bash
+    kubectl apply -f resources/workshop.yaml
+    ```
 
-```bash
-kubectl get trainingportal
-```
+1. Deploy a sample training portal:
+
+    ```bash
+    kubectl apply -f resources/training-portal.yaml
+    ```
+
+1. Get the URL for the training portal:
+
+    ```bash
+    kubectl get trainingportal
+    ```
 
 The training portal is configured to allow anonymous access. For your own
 workshop content you should consider removing anonymous access.
