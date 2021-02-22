@@ -16,11 +16,6 @@ spec:
     ingresses:
     - name: docker-app
       port: 8080
-    dashboards:
-    - name: Docker App
-      url: "$(ingress_protocol)://$(session_namespace)-docker-app.$(ingress_domain)/"
-    - name: Kubernetes App
-      url: "$(ingress_protocol)://$(session_namespace)-k8s-app.$(ingress_domain):32321/"
     namespaces:
       budget: small
     applications:

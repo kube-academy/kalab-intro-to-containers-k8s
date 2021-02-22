@@ -9,4 +9,3 @@ The Docker runtime will return a UUID of the running container.
 Notice the run command specifies a port mapping for port `8080` outside the container to port `8080` inside the container.
 Remember, our container expects to expose port 8080.
 Using this port mapping method, you could run multiple containers from this image on the same host and avoid port conflicts.
-

@@ -5,7 +5,3 @@ In this directory, we have a [Hugo](https://gohugo.io/)-based website along with
 ```terminal:execute
 command: cd ~/intro && ls
 ```
-
-#### Docker and Kubernetes App Buttons
-
-The two buttons _Docker App_ and _Kubernetes App_ will display your website once it is up and running.

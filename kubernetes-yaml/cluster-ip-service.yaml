@@ -7,12 +7,11 @@ metadata:
     app: hugo-site
     tier: frontend
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - protocol: TCP
     port: 80
     targetPort: 8080
-    nodePort: 32321
   selector:
     app: hugo-site
     tier: frontend
