@@ -21,5 +21,7 @@ spec:
       containers:
       - name: hugosite
         image: ${REGISTRY_HOST}/hugo-site:v1
+        securityContext:
+          runAsNonRoot: true
         ports:
         - containerPort: 8080
