@@ -9,3 +9,4 @@ kustomization.yaml
 resources
 
 .vscode
+build-local-image.sh
