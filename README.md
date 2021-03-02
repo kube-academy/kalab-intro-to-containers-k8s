@@ -1,4 +1,4 @@
-This repository is an [Educates](https://docs.eduk8s.io) workshop.
+This repository is an [Educates](https://docs.edukates.io/) workshop.
 
 It is a port of the Katacoda scenario [Intro to Containers](https://github.com/kube-academy/katacoda-scenarios/tree/master/intro-to-containers-k8s).
 
