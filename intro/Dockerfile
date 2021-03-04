@@ -1,6 +1,6 @@
 FROM alpine as HUGO
 
-ENV HUGO_VERSION="0.59.1"
+ENV HUGO_VERSION="0.81.0"
 
 RUN apk add --update wget
 
@@ -15,7 +15,7 @@ COPY . /hugo-site
 # Use Hugo to build the static site files.
 RUN hugo -v --source=/hugo-site --destination=/hugo-site/public
 
-FROM nginxinc/nginx-unprivileged:alpine
+FROM bitnami/nginx:latest
 COPY --from=HUGO /hugo-site/public/ /usr/share/nginx/html/
 
 # The container will listen on port 8080 (non-privileged) using the TCP protocol.
