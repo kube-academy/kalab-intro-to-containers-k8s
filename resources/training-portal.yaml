@@ -8,7 +8,7 @@ spec:
       type: anonymous
   workshops:
   - name: kalab-intro-to-containers-k8s
-    capacity: 1
+    capacity: 3
     reserved: 0
     expires: 30m
     orphaned: 5m
