@@ -16,7 +16,7 @@ COPY . /hugo-site
 RUN hugo -v --source=/hugo-site --destination=/hugo-site/public
 
 FROM bitnami/nginx:latest
-COPY --from=HUGO /hugo-site/public/ /usr/share/nginx/html/
+COPY --from=HUGO /hugo-site/public/ /opt/bitnami/nginx/html/
 
 # The container will listen on port 8080 (non-privileged) using the TCP protocol.
 EXPOSE 8080
