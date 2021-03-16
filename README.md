@@ -28,3 +28,7 @@ This scenario is published as part of the kube academy course ["Hands-On with Ku
 
 The training portal is configured to allow anonymous access. For your own
 workshop content you should consider removing anonymous access.
+
+## Review Environment
+
+[https://kube-academy-labs-ui.kube-test-a351ffe.kubeacademy.esp-staging.vmware-aws.com/workshops/environment/kube-academy-labs-w02/](https://kube-academy-labs-ui.kube-test-a351ffe.kubeacademy.esp-staging.vmware-aws.com/workshops/environment/kube-academy-labs-w02/)
